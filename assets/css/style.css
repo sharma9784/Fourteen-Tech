@@ -77,7 +77,7 @@ TABLE OF CONTENTS:-
   --color-blue4: #5842bc;
   --color-blue5: #157efb;
   --color-blue6: #6640f4;
-  --color-blue7: #8169f1;
+  --color-blue7: #daa520;
   --color-lightBlue:#15f1ff;
   --color-darkBlue:#010049;
   --color-darkBlue2:#1f227d;
@@ -2081,9 +2081,9 @@ small.text {
 .section-head.style-4 h2 span {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: -webkit-gradient(linear, left top, right top, from(#501e9c), color-stop(30%, #8169f1), color-stop(30%, #8169f1), color-stop(73%, #a44cee), to(#ff847f));
-  background-image: -o-linear-gradient(left, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
-  background-image: linear-gradient(to right, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#d0ad0f), color-stop(30%, #b39923), color-stop(30%, #ae993d), color-stop(73%, #b39923), to(#ddd082));
+  background-image: -o-linear-gradient(left, #d0ad0f 0%, #b39923 30%, #ae993d 30%, #ddd082 73%, #dbd997 100%);
+  background-image: linear-gradient(to right, #d0ad0f 0%, #b39923 30%, #ae993d 30%, #ddd082 73%, #dbd997 100%);
 }
 .section-head.style-4 h5 {
   font-size: 16px;
@@ -3973,10 +3973,11 @@ header.style-7 .info h1 .num {
 header.style-7 .info h1 .text-grad {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: -webkit-gradient(linear, left top, right top, from(#501e9c), color-stop(30%, #8169f1), color-stop(30%, #8169f1), color-stop(73%, #a44cee), to(#ff847f));
-  background-image: -o-linear-gradient(left, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
-  background-image: linear-gradient(to right, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#d0ad0f), color-stop(30%, #b39923), color-stop(30%, #ae993d), color-stop(73%, #b39923), to(#ddd082));
+  background-image: -o-linear-gradient(left, #d0ad0f 0%, #b39923 30%, #ae993d 30%, #ddd082 73%, #dbd997 100%);
+  background-image: linear-gradient(to right, #d0ad0f 0%, #b39923 30%, #ae993d 30%, #ddd082 73%, #dbd997 100%);
 }
+
 header.style-7 .img {
   position: relative;
 }

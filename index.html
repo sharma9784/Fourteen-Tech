@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metas -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="keywords" content="Fourteen Technologies,Web development,App development,Digital Marketing,Seo" />
+    <meta name="description" content="Fourteen Technologies" />
+    <meta name="author" content="" />
+
+    <!-- Title  -->
+    <title>Fourteen</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/fav.png" title="Favicon" sizes="16x16" />
+
+    <!-- ====== bootstrap icons cdn ====== -->
+    <link rel="stylesheet" href="../cdn.jsdelivr.net/npm/bootstrap-icons%401.7.2/font/bootstrap-icons.css">
+
+    <!-- bootstrap 5 -->
+    <link rel="stylesheet" href="assets/css/lib/bootstrap.min.css">
+
+    <!-- ====== font family ====== -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/lib/all.min.css" />
+    <link rel="stylesheet" href="assets/css/lib/animate.css" />
+    <link rel="stylesheet" href="assets/css/lib/jquery.fancybox.css" />
+    <link rel="stylesheet" href="assets/css/lib/lity.css" />
+    <link rel="stylesheet" href="assets/css/lib/swiper.min.css" />
+    <!-- ====== global style ====== -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+
+    <!-- ====== start loading page ====== -->
+    <!-- <div id="preloader">
+    </div> -->
+    <!-- ---------- loader ---------- -->
+    <div id="preloader">
+        <div id="loading-wrapper" class="show">
+            <div id="loading-text"> <img src="assets/img/logo_lgr.png" alt=""> </div>
+            <div id="loading-content"></div>
+        </div>
+    </div>
+    <!-- ====== end loading page ====== -->
+
+    <!-- ====== start sidemenu navbar ====== -->
+    <div class="side_menu style-7" id="side_menu">
+        <a href="javascript:void(0)" class="side_menu_cls">
+            <img src="assets/img/icons/4dots.png" alt="">
+        </a>
+        <div class="content">
+            <div class="logo">
+                <a href="index.html" class="w-100">
+                    <img src="assets/img/logo_lgr.png" alt="">
+                </a>
+            </div>
+            <div class="pages_links">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="#aboutDiv">about</a></li>
+                    <li><a href="#serviceDiv">services</a></li>
+                    <li><a href="career.html">Careers</a></li>
+                    <li><a href="#testimonialDiv">Testimonials</a></li>
+                    <!-- <li><a href="javascript:void(0)">portfolio</a></li>
+                    <li><a href="javascript:void(0)">blog</a></li> -->
+                    <li><a href="contact-us.html">contact</a></li>
+                    <!-- <li><a href="javascript:void(0)">shop</a></li> -->
+                </ul>
+            </div>
+            <div class="side_foot">
+                <h5> Get in touch </h5>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <a href="callto:+91 9352082165"> <i class="fal fa-phone-alt me-2"></i> +91 9352082165 </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a href="mailto:fourteentechworld@gmail.com"> <i class="fal fa-envelope me-2 mt-4 mt-lg-0"></i>
+                            fourteentechworld@gmail.com </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="side_overlay"></div>
+    <!-- ====== end sidemenu navbar ====== -->
+
+    <!-- ====== start top navbar ====== -->
+    <div class="top-navbar style-7">
+        <div class="container">
+            <div class="row justify-content-between gx-0">
+                <div class="col-7">
+                    <div class="top_info">
+                        <a href="mailto:fourteentechworld@gmail.com" class="me-4">
+                            <i class="fas fa-envelope-open me-1 color-blue7"></i>
+                            <span>fourteentechworld@gmail.com</span>
+                        </a>
+                        <a href="callto:+91 9352082165">
+                            <i class="fas fa-phone me-1 color-blue7"></i>
+                            <span>+91 9352082165</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-5">
+                    <div class="side_links d-flex justify-content-lg-end">
+
+                        <!-- <a href="javascript:void(0)" class="me-4"> Faq </a> -->
+                        <div class="dropdown border-1 border-start ps-4">
+                            <a class="dropdown-toggle fw-bold" href="javascript:void(0)" id="navbarDropdown1"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                English
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ====== end top navbar ====== -->
+
+    <!-- ====== start navbar ====== -->
+    <nav class="navbar navbar-expand-lg navbar-light style-7">
+        <div class="container">
+            <a class="navbar-brand" href="javascript:void(0)">
+                <img src="assets/img/logo_lgr.png" alt="">
+            </a>
+            <a href="javascript:void(0)" class="side_menu_btn active">
+                <img src="assets/img/icons/4dots.png" alt="">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ps-4">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active" href="index.html" id="navbarDropdown1" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Home
+                        </a>
+
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#aboutDiv" id="navbarDropdown1" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            About
+                        </a>
+
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#serviceDiv" id="navbarDropdown1" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="career.html" id="navbarDropdown1" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Careers
+                        </a>
+
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#testimonialDiv" id="navbarDropdown1" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Testimonials
+                        </a>
+
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="contact-us.html" id="navbarDropdown1" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Contact
+                        </a>
+
+
+                    </li>
+
+                </ul>
+                <div class="nav-side">
+                    <div class="d-flex align-items-center">
+                        <!-- <a href="javascript:void(0)" class="me-4">
+                            <img src="assets/img/icons/user.png" alt="">
+                        </a> -->
+                        <a href="javascript:void(0)" class="side_menu_btn">
+                            <img src="assets/img/icons/4dots.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- ====== end navbar ====== -->
+
+    <!-- ====== start header ====== -->
+    <header class="style-7">
+        <div class="content">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="info mt-5 mt-lg-0">
+                            <div class="section-head style-4">
+                                <div class="top-title">
+                                    <img src="assets/img/line_l.png" alt="">
+                                    <h5> Get Solid Solution </h5>
+                                </div>
+                            </div>
+                            <h1>
+                                Creating <span class="text-grad">smart </span> solutions for a <span
+                                    class="text-grad">smarter </span> world
+                            </h1>
+                            <div class="d-flex flex-wrap">
+                                <a href="javascript:void(0)0"
+                                    class="btn btn-icon-circle rounded-pill bg-blue7 fw-bold text-white me-4"
+                                    target="_blank">
+                                    <small> Get Started Now <i class="fas fa-long-arrow-alt-right"></i> </small>
+                                </a>
+                                <div class="inf mt-3 mt-lg-0">
+                                    <p class="color-999"> Support Email </p>
+                                    <a href="mailto:fourteentechworld@gmail.com" class="fw-bold">
+                                        fourteentechworld@gmail.com </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="img mt-4 mt-lg-0">
+                            <img src="assets/img/header/head_img7.png" alt="">
+                            <img src="assets/img/header/head7_rock.png" alt="" class="rock7 slide_up_down">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <img src="assets/img/header/head7_bg.png" alt="" class="head7_bg slide_up_down">
+    </header>
+    <!-- ====== end header ====== -->
+
+    <!--Contents-->
+    <main>
+
+
+        <!-- ====== start about ====== -->
+        <section class="about style-7" id="aboutDiv">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5">
+                        <div class="info">
+                            <div class="section-head style-4 mb-40">
+                                <div class="top-title mb-10">
+                                    <img src="assets/img/line_l.png" alt="">
+                                    <h5> About Us </h5>
+                                </div>
+                                <h2 class="">
+                                    Our Vision for the Future of <span class="text-grad">Software</span> <span class="text-grad">Development</span>
+                                   
+                                </h2>
+                            </div>
+                            <div class="text mb-30">
+                                At Fourteen technologies, we're passionate about creating exceptional digital experiences that help our clients achieve their goals. We specialize in web development, building websites and applications that are intuitive, engaging, and effective.
+                            </div>
+                            <ul>
+                                <li class="d-flex mb-20">
+                                    <i class="fas fa-check-circle color-blue7 me-2 mt-2"></i>
+                                    <div class="text"> <strong class="color-000"> Our expertise: </strong>
+                                        Our team of developers and designers have years of experience creating custom solutions for a wide range of clients, from small startups to large corporations. </div>
+                                </li>
+                                <li class="d-flex mb-20">
+                                    <i class="fas fa-check-circle color-blue7 me-2 mt-2"></i>
+                                    <div class="text"> <strong class="color-000"> Collaborative approach: </strong> We take a collaborative approach to development, working closely with our clients throughout the entire process to ensure that the end result perfectly aligns with their business goals. </div>
+                                </li>
+                                <li class="d-flex mb-20">
+                                    <i class="fas fa-check-circle color-blue7 me-2 mt-2"></i>
+                                    <div class="text"> <strong class="color-000"> Web development: </strong> We specialize in web development, building websites and applications that are intuitive, engaging, and effective. </div>
+                                </li>
+                                <li class="d-flex mb-20">
+                                    <i class="fas fa-check-circle color-blue7 me-2 mt-2"></i>
+                                    <div class="text"> <strong class="color-000"> Custom solutions: </strong> We pride ourselves on our ability to listen closely to our clients' needs and deliver tailored solutions that exceed their expectations. </div>
+                                </li>
+                                <li class="d-flex mb-20">
+                                    <i class="fas fa-check-circle color-blue7 me-2 mt-2"></i>
+                                    <div class="text"> <strong class="color-000"> Product quality: </strong> Our products automatically sync across all your devices. You can also access them offline. </div>
+                                </li>
+                                <li class="d-flex mb-20">
+                                    <i class="fas fa-check-circle color-blue7 me-2 mt-2"></i>
+                                    <div class="text"> <strong class="color-000"> Client satisfaction: </strong> Our goal is always to ensure that our clients are completely satisfied with the end result. </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="img">
+                            <img src="assets/img/about/about7.jpg" alt="" class="main-img">
+                            <img src="assets/img/about/about7_chart.png" alt="" class="img-chart slide_up_down">
+                            <span class="circle scale_up_down"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="assets/img/about/about_s4_wave.png" alt="" class="top-wave">
+            <img src="assets/img/about/about_s4_wave.png" alt="" class="bottom-wave">
+            <img src="assets/img/about/about7_lines.png" alt="" class="bg-lines">
+        </section>
+        <!-- ====== end about ====== -->
+
+        <!-- ====== start services ====== -->
+        <section class="services style-7 pt-100" id="serviceDiv">
+            <div class="container">
+                <div class="section-head text-center style-4 mb-60">
+                    <small class="title_small"> Our Services </small>
+                    <h2 class="mb-20"> Our Top <span> Services </span> </h2>
+                    <p> Maximize Your Potential with Our Suite of Services </p>
+                </div>
+            </div>
+            <div class="content">
+                <div class="services-slider position-relative style-6">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="javascript:void(0)" class="service-card style-6">
+                                    <div class="icon">
+                                        <img src="assets/img/icons/serv_icons/16.png" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h5>Content Strategy</h5>
+                                        <div class="text">
+                                            With our Content Strategy service, you can develop a comprehensive content strategy that aligns with your business goals, optimizes your content for search engines, and delivers measurable results for your content marketing efforts.
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="javascript:void(0)" class="service-card style-6">
+                                    <div class="icon">
+                                        <img src="assets/img/icons/serv_icons/15.png" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h5>Google/FB Ads</h5>
+                                        <div class="text">
+                                            With our Google and Facebook Ads service, you can create and run targeted ad campaigns that are optimized for performance, and analyze their results to continually improve your return on investment (ROI).
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="javascript:void(0)" class="service-card style-6">
+                                    <div class="icon">
+                                        <img src="assets/img/icons/serv_icons/14.png" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h5>Email Marketing</h5>
+                                        <div class="text">
+                                            With our email marketing service, you can create, send, and track email campaigns that are optimized for open rates and click-throughs, and integrate with your CRM to streamline your marketing efforts.
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="javascript:void(0)" class="service-card style-6">
+                                    <div class="icon">
+                                        <img src="assets/img/icons/serv_icons/17.png" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h5>Social Media</h5>
+                                        <div class="text">
+                                            With our social media service, you can create and execute social media campaigns that are tailored to your business goals and target audience, and analyze their performance to optimize your social media strategy.
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="javascript:void(0)" class="service-card style-6">
+                                    <div class="icon">
+                                        <img src="assets/img/icons/serv_icons/18.png" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h5>Website Design and Development</h5>
+                                        <div class="text">
+                                            With our website design and development service, you can create a professional and modern website that reflects your brand identity and provides a seamless user experience across all devices.
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="javascript:void(0)" class="service-card style-6">
+                                    <div class="icon">
+                                        <img src="assets/img/icons/serv_icons/18.png" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h5>App Design and Development</h5>
+                                        <div class="text">
+                                            With our app design and development service, you can bring your unique ideas to life with custom-built applications that are optimized for performance, security, and scalability.
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="javascript:void(0)" class="service-card style-6">
+                                    <div class="icon">
+                                        <img src="assets/img/icons/serv_icons/18.png" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h5>Web App</h5>
+                                        <div class="text">
+                                            With our web app service, you can build and deploy powerful web applications quickly and easily, allowing you to focus on your core business objectives.
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="javascript:void(0)" class="service-card style-6">
+                                    <div class="icon">
+                                        <img src="assets/img/icons/serv_icons/18.png" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h5>Api Integration</h5>
+                                        <div class="text">
+                                            With our API integration service, you can easily integrate your applications with popular APIs to automate tasks and enhance functionality, saving you time and resources.
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="javascript:void(0)" class="service-card style-6">
+                                    <div class="icon">
+                                        <img src="assets/img/icons/serv_icons/18.png" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h5>Cloud Computing</h5>
+                                        <div class="text">
+                                            With our cloud computing service, you can leverage the power of cloud technology to store, manage, and process data, run applications, and scale your operations, without the need for expensive hardware and IT staff.
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="javascript:void(0)" class="service-card style-6">
+                                    <div class="icon">
+                                        <img src="assets/img/icons/serv_icons/18.png" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h5>CRM Development</h5>
+                                        <div class="text">
+                                            With our CRM development service, you can build a tailored CRM system that meets your business needs, integrates with your existing applications, and provides insightful analytics to help you make informed decisions.
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ====== end services ====== -->
+
+
+        <!-- ====== start testimonials ====== -->
+        <section class="testimonials style-7 section-padding" id="testimonialDiv">
+            <div class="container">
+                <div class="section-head text-center style-4 mb-80">
+                    <div class="top-title mb-10">
+                        <img src="assets/img/line_l.png" alt="">
+                        <h5> Feedbacks </h5>
+                        <img src="assets/img/line_r.png" alt="">
+                    </div>
+                    <h2 class="">
+                        150+ Happy <span> Users Around </span> <br> From Worlds
+                    </h2>
+                </div>
+                <div class="testimonials-slider7 position-relative overflow-hidden">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="content">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-10">
+                                            <div class="testi-card">
+                                                <div class="text">
+                                                    “ It uses a directory of over 200 latin words combine a half of
+                                                    model sentence structures. All generations on the internet trends to
+                                                    repeat predefined chunks as nessessary to make this file. ”
+                                                </div>
+                                                <div class="author">
+                                                    <div
+                                                        class="img icon-60 rounded-circle overflow-hidden img-cover me-3 flex-shrink-0">
+                                                        <img src="assets/img/testimonials/user7.png" alt="">
+                                                    </div>
+                                                    <div class="inf">
+                                                        <p> Head Of Idea </p>
+                                                        <h6> Alonso D.Dowson </h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="content">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-10">
+                                            <div class="testi-card">
+                                                <div class="text">
+                                                    “ It uses a directory of over 200 latin words combine a half of
+                                                    model sentence structures. All generations on the internet trends to
+                                                    repeat predefined chunks as nessessary to make this file. ”
+                                                </div>
+                                                <div class="author">
+                                                    <div
+                                                        class="img icon-60 rounded-circle overflow-hidden img-cover me-3 flex-shrink-0">
+                                                        <img src="assets/img/testimonials/user3.jpg" alt="">
+                                                    </div>
+                                                    <div class="inf">
+                                                        <p> Head Of Idea </p>
+                                                        <h6> Alonso D.Dowson </h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="get-qoute-banner">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="info">
+                                <p> Anytime you can make request to us </p>
+                                <h6> Everything You Need To Manage Business </h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 d-none d-lg-block">
+                            <div class="img">
+                                <img src="assets/img/testimonials/banner7.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="btns text-lg-end">
+                                <a href="javascript:void(0)0"
+                                    class="btn btn-icon-circle rounded-pill bg-blue7 fw-bold text-white">
+                                    <small> Get A Quote <i class="fas fa-long-arrow-alt-right"></i> </small>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="assets/img/testimonials/testi7_back.png" alt="" class="img_back slide_up_down">
+            <img src="assets/img/testimonials/testi7_qout.png" alt="" class="testi_qout">
+        </section>
+        <!-- ====== end testimonials ====== -->
+
+        <!-- ====== start choose-us ====== -->
+        <section class="choose-us style-7 section-padding">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="img">
+                            <img src="assets/img/choose_us/choose7.jpg" alt="">
+                            <a href="https://youtu.be/pGbIOC83-So?t=21" class="play_btn" data-lity>
+                                <i class="fas fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="info">
+                            <div class="section-head style-4 mb-40">
+                                <div class="top-title mb-10">
+                                    <img src="assets/img/line_l.png" alt="">
+                                    <h5> Why Choose Us </h5>
+                                </div>
+                                <h2 class="text-white">
+                                    Why Choose <span> Our Own </span> <br> IT Service?
+                                </h2>
+                            </div>
+                            <ul>
+                                <li>
+                                    <div class="icon">
+                                        <img src="assets/img/choose_us/icon1.png" alt="">
+                                    </div>
+                                    <div class="inf">
+                                        <h6> AI Intregrations </h6>
+                                        <p> Automatically syncs across all your devices </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <img src="assets/img/choose_us/icon2.png" alt="">
+                                    </div>
+                                    <div class="inf">
+                                        <h6> On Demand Design </h6>
+                                        <p> Automatically syncs across all your devices </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="assets/img/about/about_s4_wave.png" alt="" class="top-wave">
+            <img src="assets/img/about/about_s4_wave.png" alt="" class="bottom-wave">
+            <img src="assets/img/choose_us/choose7_circe.png" alt="" class="choose-circle rotate-center">
+        </section>
+        <!-- ====== end choose-us ====== -->
+
+
+        <!-- ====== start chat-banner ====== -->
+        <section class="chat-banner style-7">
+            <div class="container">
+                <div class="row align-items-end">
+                    <div class="col-lg-3 col-sm-6 d-none d-lg-block">
+                        <div class="img img1">
+                            <img src="assets/img/vector1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="info">
+                            <p> Hire Us For Your Project </p>
+                            <h3> Lets Work Together </h3>
+                            <div class="btns mt-50">
+
+                                <a href="javascript:void(0)0"
+                                    class="btn btn-icon-circle rounded-pill fw-bold brd-light text-white hover-blue7">
+                                    <small> Contact Us <i class="fas fa-long-arrow-alt-right bg-light"></i> </small>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="img img2">
+                            <img src="assets/img/vector2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ====== end chat-banner ====== -->
+
+
+
+        <!-- ====== start contact page ====== -->
+        <section class="community section-padding style-5">
+            <div class="container">
+                <div class="section-head text-center style-4 mb-40">
+                    <small class="title_small">Contact us</small>
+                    <h2 class="mb-20">Get In <span> Touch </span> </h2>
+                    <p>We will contact again after receive your request in 24h</p>
+                </div>
+                <div class="content rounded-pill">
+                    <div class="commun-card">
+                        <div class="icon icon-30">
+                            <img src="assets/img/icons/mail3d.png" alt="">
+                        </div>
+                        <div class="inf" style="font-weight:600 !important">
+                            <h6>fourteentechworld@gmail.com </h6>
+                        </div>
+                    </div>
+                    <div class="commun-card">
+                        <div class="icon icon-30">
+                            <img src="assets/img/icons/map3d.png" alt="">
+                        </div>
+                        <div class="inf" style="font-weight:600 !important">
+                            <h6>A-301, Malviya Nagar, Jaipur, Rajasthan</h6>
+                        </div>
+                    </div>
+                    <div class="commun-card">
+                        <div class="icon icon-30">
+                            <img src="assets/img/icons/msg3d.png" alt="">
+                        </div>
+                        <div class="inf" style="font-weight:600 !important">
+                            <h6>+91 9352082165</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact section-padding pt-0 style-6">
+            <div class="container">
+                <div class="content">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <form action="https://iteck-html.themescamp.com/contact.php" class="form" method="post">
+                                <p class="text-center text-danger fs-12px mb-30">The field is required mark as *</p>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group mb-20">
+                                            <input type="text" name="name" class="form-control" placeholder="Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group mb-20">
+                                            <input type="text" name="phone" class="form-control"
+                                                placeholder="Phone Number *">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-group mb-20">
+                                            <input type="text" name="email" class="form-control"
+                                                placeholder="Email Address *">
+                                        </div>
+                                    </div>
+                                   
+                                    
+                                    
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <textarea rows="10" class="form-control"
+                                                placeholder="How can we help you?"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 text-center">
+                                        <div class="form-check d-inline-flex mt-30 mb-30">
+                                            <input class="form-check-input me-2 mt-0" type="checkbox" value=""
+                                                id="flexCheckDefault">
+                                            <label class="form-check-label small" for="flexCheckDefault">
+                                                By submitting, i’m agreed to the <a href="#"
+                                                    class="text-decoration-underline">Terms & Conditons</a>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 text-center">
+                                        <input type="submit" value="Send Your Request"
+                                            class="btn rounded-pill bg-blue4 fw-bold text-white text-light fs-12px">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <img src="assets/img/icons/contact_a.png" alt="" class="contact_a">
+                    <img src="assets/img/icons/contact_message.png" alt="" class="contact_message">
+                </div>
+            </div>
+        </section>
+        <!-- ====== end contact page ====== -->
+    </main>
+    <!--End-Contents-->
+
+    <!-- ====== start footer ====== -->
+    <footer class="style-7">
+        <div class="container">
+            <div class="content section-padding">
+                <div class="row">
+                    <div class="col-lg-4 border-1 border-end brd-gray">
+                        <div class="info-logo">
+                            <a href="javascript:void(0)" class="logo">
+                                <img src="assets/img/logo_lgr.png" alt="">
+                            </a>
+                            <div class="text">
+                                Our highly skilled development teams specialized in Java, PHP, React, Angular and AWS
+                                help you accelarate.
+                            </div>
+                            <div class="social-links">
+                                <a href="javascript:void(0)">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="javascript:void(0)">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="javascript:void(0)">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/fourteen-technologies-834b55270/">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="links-side">
+                            <div class="row gx-5">
+                                <div class="col-lg-6">
+                                    <div class="links-group">
+                                        <h5>What We Do</h5>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <ul class="links">
+                                                    <li>
+                                                        <a href="javascript:void(0)">Online Marketing</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:void(0)">Technology</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:void(0)">Business</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:void(0)">Content strategy</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:void(0)">Development</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:void(0)">Advertising Strategy</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <ul class="links">
+                                                    <li>
+                                                        <a href="javascript:void(0)">Game Development</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:void(0)">Application Design</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:void(0)">IT Solutions</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:void(0)">Tecture & Pattern</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:void(0)">Data Analysis</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="links-group">
+                                        <h5>More Pages</h5>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <ul class="links">
+                                                    <li>
+                                                        <a href="javascript:void(0)">About Us</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="javascript:void(0)">Contact</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:void(0)">Privacy Policy</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:void(0)">Terms of Use</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <ul class="links">
+
+                                                    <li>
+                                                        <a href="javascript:void(0)">Terms Conditions</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:void(0)">Join Us <small
+                                                                class="text-uppercase bg-blue7 text-white py-1 px-3 rounded-pill ms-2 lh-2">
+                                                                hiring </small></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:void(0)">Get In Touch</a>
+                                                    </li>
+                                                    <li>
+                                                        <!-- <a href="javascript:void(0)">FAQ Page</a> -->
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="foot bg-white p-3 rounded-pill text-center">
+                <p> Full Copyright & Design By <a href="javascript:void(0)" class="fw-bold"> @Fourteen </a> - 2023
+                </p>
+            </div>
+        </div>
+        <!-- <img src="assets/img/footer/footer_4_wave.png" alt="" class="wave"> -->
+    </footer>
+    <!-- ====== end footer ====== -->
+
+    <!-- ====== start to top button ====== -->
+    <a href="javascript:void(0)"
+        class="to_top bg-gray rounded-circle icon-40 d-inline-flex align-items-center justify-content-center">
+        <i class="bi bi-chevron-up fs-6 text-dark"></i>
+    </a>
+    <!-- ====== end to top button ====== -->
+
+    <!-- ====== request ====== -->
+    <script src="assets/js/lib/jquery-3.0.0.min.js"></script>
+    <script src="assets/js/lib/jquery-migrate-3.0.0.min.js"></script>
+    <!-- <script src="assets/js/lib/bootstrap.bundle.min.js"></script> -->
+    <script src="assets/js/lib/wow.min.js"></script>
+    <script src="assets/js/lib/jquery.fancybox.js"></script>
+    <script src="assets/js/lib/lity.js"></script>
+    <script src="assets/js/lib/swiper.min.js"></script>
+    <script src="assets/js/lib/jquery.waypoints.min.js"></script>
+    <script src="assets/js/lib/jquery.counterup.js"></script>
+    <!-- <script src="assets/js/lib/pace.js"></script> -->
+    <script src="assets/js/lib/scrollIt.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+
+
+</body>
+
+
+<!-- Mirrored from iteck-html.themescamp.com/home-it-solutions2.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 04 Apr 2023 18:32:46 GMT -->
+
+</html>
