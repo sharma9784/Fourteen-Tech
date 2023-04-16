@@ -2606,7 +2606,7 @@ small.text {
 
 @media screen and (max-width: 480px) {
   .side_menu.style-7 {
-    width: 100%;
+    width: 50%;
   }
   .side_menu.style-7 .pages_links {
     height: calc(100vh - 273px);
