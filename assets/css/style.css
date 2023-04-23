@@ -74,9 +74,9 @@ TABLE OF CONTENTS:-
   --color-primary:#0066ff;
   --color-secondary:#02b5ff;
   --color-blue2: #4a00e1;
-  --color-blue4: #5842bc;
+  --color-blue4: #cd8d00;
   --color-blue5: #157efb;
-  --color-blue6: #6640f4;
+  --color-blue6: #cd8d00;
   --color-blue7: #daa520;
   --color-lightBlue:#15f1ff;
   --color-darkBlue:#010049;
@@ -2088,7 +2088,7 @@ small.text {
 .section-head.style-4 h5 {
   font-size: 16px;
   font-weight: bold;
-  color: #a44cee;
+  color: #daa520;
   display: inline-block;
   text-transform: capitalize;
   margin: 0 10px;
@@ -2395,9 +2395,8 @@ small.text {
   background-color: var(--color-gray2);
   height: 100vh;
   width: 40%;
-  min-width: -webkit-max-content;
-  min-width: -moz-max-content;
-  min-width: max-content;
+  width:265px;
+  min-width:265px;
   opacity: 0;
   -webkit-transform: translateX(-100%);
       -ms-transform: translateX(-100%);
@@ -2412,35 +2411,36 @@ small.text {
           box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   z-index: 99999;
-  display: -webkit-box;
+ /* display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
+          align-items: center;*/
 }
 .side_menu.style-7 .content {
   width: 100%;
 }
 .side_menu.style-7 .content .logo {
-  padding: 30px 7vw;
+  padding: 30px 15px;
   border-bottom: 1px solid rgba(153, 153, 153, 0.2);
 }
 .side_menu.style-7 .content .logo img {
   width: 300px;
-  max-width: 50%;
+  max-width: 70%;
 }
 .side_menu.style-7 .content .side_foot {
-  padding: 30px 7vw;
+  padding: 30px 0px;
   border-top: 1px solid rgba(153, 153, 153, 0.2);
 }
 .side_menu.style-7 .content .side_foot h5 {
   text-transform: uppercase;
-  margin-bottom: 20px;
+    margin-bottom: 15px;
+    font-size: 18px;
 }
 .side_menu.style-7 .pages_links {
-  padding: 15px 7vw;
-  height: calc(100vh - 240px);
+  padding: 15px 15px;
+  /*height: calc(100vh - 240px);*/
   overflow: auto;
 }
 .side_menu.style-7 .pages_links::-webkit-scrollbar {
@@ -2464,7 +2464,7 @@ small.text {
 }
 .side_menu.style-7 .pages_links li a {
   color: #222;
-  font-size: calc(14px + 1.5vw);
+  font-size: 16px;
   font-weight: bold;
   margin: 10px 0;
   position: relative;
@@ -2538,8 +2538,8 @@ small.text {
 }
 .side_menu.style-7 .side_menu_cls {
   position: absolute;
-  top: 40px;
-  right: 30px;
+  top: 32px;
+  right: 15px;
 }
 .side_menu.style-7 .side_menu_cls:hover {
   -webkit-transform: rotate(45deg);
@@ -2609,7 +2609,7 @@ small.text {
     width: 50%;
   }
   .side_menu.style-7 .pages_links {
-    height: calc(100vh - 273px);
+    /*height: calc(100vh - 273px);*/
   }
 }
 /* ===============================================================
@@ -3016,9 +3016,9 @@ small.text {
   padding: 30px 0;
 }
 .navbar.style-7 .navbar-brand {
-  width: 250px;
+  width: 225px;
   padding-right: 60px;
-  border-right: 1px solid rgba(153, 153, 153, 0.1333333333);
+  /*border-right: 1px solid rgba(153, 153, 153, 0.1333333333);*/
 }
 .navbar.style-7 .navbar-nav .nav-item .nav-link {
   font-weight: bold;
@@ -3623,9 +3623,9 @@ header.style-4 .content .info h1 {
 header.style-4 .content .info h1 span {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: -webkit-gradient(linear, left top, right top, from(#501e9c), color-stop(30%, #8169f1), color-stop(30%, #8169f1), color-stop(73%, #a44cee), to(#ff847f));
-  background-image: -o-linear-gradient(left, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
-  background-image: linear-gradient(to right, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#501e9c), color-stop(30%, #8169f1), color-stop(30%, #8169f1), color-stop(73%, #daa520), to(#ff847f));
+  background-image: -o-linear-gradient(left, #501e9c 0%, #8169f1 30%, #8169f1 30%, #daa520 73%, #ff847f 100%);
+  background-image: linear-gradient(to right, #501e9c 0%, #8169f1 30%, #8169f1 30%, #daa520 73%, #ff847f 100%);
 }
 header.style-4 .content .info .text {
   color: #666;
@@ -5242,10 +5242,16 @@ header.style-15 .countdown-content .logos img {
      object-fit: cover;
 }
 .about.style-7 .top-wave {
-  position: absolute;
-  top: -1px;
-  left: 0;
-  width: 100%;
+      position: absolute;
+    top: -13px;
+    left: 0;
+    width: 100%;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 .about.style-7 .bottom-wave {
   position: absolute;
@@ -5898,7 +5904,15 @@ header.style-15 .countdown-content .logos img {
   margin-top: 35px;
 }
 
+@media screen and (min-width: 991.98px) {
+  .navbar.style-7 .side_menu_btn{
+    display: none;
+
+    }
+  }
+
 @media screen and (min-width: 991px) {
+ 
   .services-slider8 {
     position: relative;
   }
@@ -6785,7 +6799,7 @@ header.style-15 .countdown-content .logos img {
   padding: 55px;
 }
 .project-card.style-7 .info h6 {
-  color: #a44cee;
+  color: #daa520;
   font-weight: 400;
   margin-bottom: 10px;
 }
@@ -7677,7 +7691,7 @@ header.style-15 .countdown-content .logos img {
   margin-top: 40px;
 }
 .testimonials.style-7 .testi-card .author .inf p {
-  color: #946ed6;
+  color: #cd8d00;
 }
 .testimonials.style-7 .testi-card .author .inf h6 {
   font-size: 18px;
@@ -10360,9 +10374,9 @@ header.style-15 .countdown-content .logos img {
   font-size: 60px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: -webkit-gradient(linear, left top, right top, from(#501e9c), color-stop(30%, #8169f1), color-stop(30%, #8169f1), color-stop(73%, #a44cee), to(#ff847f));
-  background-image: -o-linear-gradient(left, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
-  background-image: linear-gradient(to right, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#501e9c), color-stop(30%, #8169f1), color-stop(30%, #8169f1), color-stop(73%, #daa520), to(#ff847f));
+  background-image: -o-linear-gradient(left, #501e9c 0%, #8169f1 30%, #8169f1 30%, #daa520 73%, #ff847f 100%);
+  background-image: linear-gradient(to right, #501e9c 0%, #8169f1 30%, #8169f1 30%, #daa520 73%, #ff847f 100%);
 }
 .community.style-4 .content .commun-card .inf h5 {
   font-size: 23px;
